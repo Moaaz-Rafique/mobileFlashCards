@@ -4,6 +4,7 @@ import {useSelector, useDispatch} from 'react-redux';
 import {Card, TextInput, Button} from 'react-native-paper';
 import {useFocusEffect} from '@react-navigation/native';
 import {ADD_DECK} from '../store/types';
+import 'react-native-get-random-values';
 import {v4 as uuidv4} from 'uuid';
 
 function AddCardScreen(props) {
